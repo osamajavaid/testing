@@ -1,0 +1,112 @@
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.intro .i-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.intro .i-left .i-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.intro .i-left .i-name :nth-child(1) {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.intro .i-left .i-name :nth-child(2) {
+  color: var(--orange);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.intro .i-left .i-name :nth-child(3) {
+  color: var(--gray);
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.intro .i-left .i-button {
+  width: 6rem;
+}
+
+.intro .i-left .i-icons {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0rem;
+}
+
+.intro .i-left .i-icons img {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.intro .i-left .i-icons img:hover {
+  cursor: pointer;
+}
+
+.intro .i-right {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro .i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+
+.intro .i-right :nth-child(2) {
+  top: -19%;
+  left: -10%;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.intro .i-right :nth-child(3) {
+  top: -4%;
+  left: 70%;
+}
+
+.intro .i-right :nth-child(4) {
+  bottom: -6%;
+  right: 60%;
+}
+/*# sourceMappingURL=intro.css.map */

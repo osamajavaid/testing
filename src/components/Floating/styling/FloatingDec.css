@@ -1,0 +1,27 @@
+.floatingDev {
+  background-color: white;
+  border: 1px solid var(--orange);
+  -webkit-box-shadow: 0px 0px 88px -7px rgba(250, 0, 117, 0.67);
+  box-shadow: 0px 0px 88px -7px rgba(250, 0, 117, 0.67);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 17px;
+  padding: 0 28px 0 0;
+  height: 4.5rem;
+}
+
+.floatingDev img {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.floatingDev span {
+  font-size: 16px;
+}
+/*# sourceMappingURL=FloatingDec.css.map */

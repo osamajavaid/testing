@@ -1,0 +1,145 @@
+.work {
+  padding: 0 3rem 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  margin-top: 4rem;
+}
+
+.work .awesome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.work .awesome :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.work .awesome :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.work .awesome :nth-child(3) {
+  color: var(--gray);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.work .awesome a {
+  margin-top: 1rem;
+}
+
+.work .awesome a .s-button {
+  color: white;
+  width: 8rem;
+  height: 2rem;
+  font-size: 16px;
+}
+
+.work .awesome .s-blur1 {
+  top: 2rem;
+  left: -2rem;
+}
+
+.work .w-right {
+  position: relative;
+}
+
+.work .w-right .w-mainCircle {
+  left: 9rem;
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+  -webkit-box-shadow: var(--smboxShadow);
+          box-shadow: var(--smboxShadow);
+  background-color: white;
+  top: 2rem;
+}
+
+.work .w-right .w-mainCircle > * {
+  position: absolute;
+}
+
+.work .w-right .w-mainCircle :nth-child(1) {
+  top: -3rem;
+  left: 6rem;
+}
+
+.work .w-right .w-mainCircle :nth-child(2) {
+  left: -3rem;
+  top: 5rem;
+}
+
+.work .w-right .w-mainCircle :nth-child(3) {
+  left: 6rem;
+  top: 5rem;
+}
+
+.work .w-right .w-mainCircle :nth-child(4) {
+  left: 15rem;
+  top: 5rem;
+}
+
+.work .w-right .w-mainCircle :nth-child(5) {
+  left: 6rem;
+  top: 13rem;
+}
+
+.work .w-right .w-mainCircle .w-secCircle {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  border: 5px solid #ebebeb;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: var(--smboxShadow);
+          box-shadow: var(--smboxShadow);
+  background: none;
+  background-color: white;
+}
+
+.work .w-right .w-mainCircle .w-secCircle img {
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
+.work .w-right .w-backCircles {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.work .w-right .blueCircle {
+  top: 0;
+  left: 18rem;
+  background-color: #c300ff;
+}
+
+.work .w-right .yellowCircle {
+  left: 18rem;
+  top: 8rem;
+  background-color: #ffb71b;
+}
+/*# sourceMappingURL=work.css.map */

@@ -6,7 +6,7 @@
     --gray : #788097;
     --blueCard : #DDF8FE;
     --purple: rgb(238 210 255);
-    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 20%);
     --orangeCard: rgba(252, 166, 31, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
@@ -16,8 +16,32 @@
     overflow: hidden;
     color: var(--black);    
 }
-
-
-  
+.button{
+  border-radius: 34px;
+  border: none;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  color:white;
+  /* background: rgb(246,150,0); */
+  background: linear-gradient(180deg, rgba(246,150,0,1) 0%, rgba(255,165,5,1) 39%);
+  box-shadow: 0px 10px 50px 2px rgb(248, 163, 4) ;
+}
+.button:hover{
+  color: var(--orange);
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--orange);
+}
+.blur{
+  position: absolute;
+  width: 20rem;
+  height: 15rem;
+  border-radius: 50%;
+  /* background-color: red; */
+  filter: blur(62px);
+  z-index: -10;
+  top: -4%;
+  left: 78%;
+}
 
   

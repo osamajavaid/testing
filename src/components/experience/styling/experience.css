@@ -1,0 +1,67 @@
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8rem;
+  height: 30vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5rem;
+}
+
+.experience .achievement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.experience .achievement .circle {
+  width: 4rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.experience .achievement .circle:before {
+  border-radius: 100%;
+  content: ' ';
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f37907), to(#ffe600));
+  background-image: linear-gradient(to bottom, #f37907 0%, #ffe600 100%);
+  top: -8px;
+  bottom: -8px;
+  left: -8px;
+  right: -8px;
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: -var(--boxShadow);
+          box-shadow: -var(--boxShadow);
+}
+
+.experience .achievement span:nth-of-type(2) {
+  color: var(--orange);
+}
+/*# sourceMappingURL=experience.css.map */

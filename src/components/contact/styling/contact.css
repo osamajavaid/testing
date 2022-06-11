@@ -1,0 +1,96 @@
+.contact-form {
+  padding: 0 3rem 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  margin-top: 4rem;
+}
+
+.contact-form .awesome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.contact-form .awesome :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact-form .awesome :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact-form .awesome :nth-child(3) {
+  color: var(--gray);
+  font-size: 1rem;
+  position: absolute;
+  top: -2rem;
+  left: -4rem;
+  margin-top: 1rem;
+}
+
+.contact-form .c-right {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.contact-form .c-right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-form .c-right .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3rem;
+  outline: none;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-form .c-right textarea {
+  height: 4rem !important;
+}
+
+.contact-form .c-right .button:active {
+  background-color: var(--orange);
+  -webkit-box-shadow: 0px 2px 30px 10px #888888;
+          box-shadow: 0px 2px 30px 10px #888888;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  color: #fff;
+}
+
+.contact-form .c-right .c-blur1 {
+  top: -2rem;
+  left: 8rem;
+}
+/*# sourceMappingURL=contact.css.map */
